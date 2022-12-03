@@ -80,8 +80,13 @@ footer h3{
   margin: 0;
   background-color: transparent;
   border: 0px;
-
 }
+
+.hero-banner h2{
+  padding-top: 0;
+  margin-top: 0;
+}
+
 .page-section {
   font-size: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
