@@ -18,7 +18,7 @@ body {
     "page-section Work-grid"
     "page-section-contact CM";
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 15% 85%;
   gap: 30px;
 }
 
@@ -27,16 +27,16 @@ body {
   grid-template-areas: 
     "box1 box2"
     "box3 box4";
-  grid-template-columns: 150px 150px;
-  grid-template-rows: 150px 150px;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
   /* grid-auto-rows: 1fr
   grid-auto-columns: 1fr */
-  gap: 5px;
+  /* gap: 5px; */
  }
 
 .work-grid img {
-  object-fit: fill;
-  width: 150px;
+  object-fit: contain;
+  /* width: 150px; */
 }
 
 header h1{
@@ -57,6 +57,9 @@ ul{
   
 }
 
+.page-section{
+  border-right: 5px solid blueviolet;
+}
 
 
 footer h3{
@@ -98,4 +101,8 @@ footer h3{
   font-size: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: right;
+}
+
+.page-section h2 {
+  padding: 20px;
 }
