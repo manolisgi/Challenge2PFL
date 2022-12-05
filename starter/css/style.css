@@ -29,18 +29,20 @@ body {
     "box3 box4";
   /* grid-template-columns: 500px 500px;
   grid-template-rows: 300px 300px; */
-  grid-auto-rows: minmax(200px auto)
-  grid-auto-columns: 1fr 1fr
-  /* gap: 5px; */
+  grid-auto-rows: minmax(200px auto);
+  grid-auto-columns: 1fr 1fr;
+  gap: 30px;
  }
 
 .box1{
   background-image: url(https://static-cse.canva.com/blob/572029/removingbackgroundimages_Unsplash.e695e074.jpeg);
   background-size:cover;
-}
+  border: 5px solid blueviolet;
+  padding: 10px;
+  }
 
 .box2{
-    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/5KiKmVEsCQPMNrbOE6w0Ot/341c573752bf35cb969e21fcd279d3f9/hero-img_copy.jpg?fit=fill&w=800&h=300);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/984/880/original/abstract-colorful-geometric-overlapping-background-and-texture-free-vector.jpg);
     background-size: cover;
   }
 
