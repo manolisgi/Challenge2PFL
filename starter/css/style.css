@@ -12,13 +12,13 @@ body {
 .container {
   display: grid;
   width: 100%;
-  height: 250px;
+  /* height: 250px; */
   grid-template-areas:
     "page-section AM"
     "page-section Work-grid"
     "page-section-contact CM";
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 15% 85%;
+  grid-template-rows: 300px 900px 300px;
+  grid-template-columns: 20% 80%;
   gap: 30px;
 }
 
@@ -27,16 +27,36 @@ body {
   grid-template-areas: 
     "box1 box2"
     "box3 box4";
-  grid-template-columns: subgrid;
-  grid-template-rows: subgrid;
-  /* grid-auto-rows: 1fr
-  grid-auto-columns: 1fr */
+  /* grid-template-columns: 500px 500px;
+  grid-template-rows: 300px 300px; */
+  grid-auto-rows: minmax(200px auto)
+  grid-auto-columns: 1fr 1fr
   /* gap: 5px; */
  }
 
+.box1{
+  background-image: url(https://static-cse.canva.com/blob/572029/removingbackgroundimages_Unsplash.e695e074.jpeg);
+  background-size:cover;
+}
+
+.box2{
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/5KiKmVEsCQPMNrbOE6w0Ot/341c573752bf35cb969e21fcd279d3f9/hero-img_copy.jpg?fit=fill&w=800&h=300);
+    background-size: cover;
+  }
+
+ .box3{
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149005675.jpg?w=2000);
+    background-size: cover;
+  }
+
+.box4{
+    background-image: url(https://img.freepik.com/free-vector/abstract-low-poly-orange-yellow-background_1017-32111.jpg?auto=format&h=200);
+    background-size: cover;
+  }
 .work-grid img {
-  object-fit: contain;
-  /* width: 150px; */
+  /* object-fit:contain; */
+  /* width: 500px; */
+  /* height: 600px; */
 }
 
 header h1{
