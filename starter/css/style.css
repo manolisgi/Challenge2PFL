@@ -34,27 +34,29 @@ body {
   gap: 30px;
  }
 
-.box1{
-  background-image: url(https://static-cse.canva.com/blob/572029/removingbackgroundimages_Unsplash.e695e074.jpeg);
+ .work-grid div{
   background-size:cover;
   border: 5px solid blueviolet;
-  padding: 10px;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: justify;
+  }   
+.box1{
+  background-image: url(https://static-cse.canva.com/blob/572029/removingbackgroundimages_Unsplash.e695e074.jpeg);
   }
 
 .box2{
     background-image: url(https://static.vecteezy.com/system/resources/previews/001/984/880/original/abstract-colorful-geometric-overlapping-background-and-texture-free-vector.jpg);
-    background-size: cover;
   }
 
  .box3{
     background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149005675.jpg?w=2000);
-    background-size: cover;
   }
 
 .box4{
     background-image: url(https://img.freepik.com/free-vector/abstract-low-poly-orange-yellow-background_1017-32111.jpg?auto=format&h=200);
-    background-size: cover;
   }
+
 .work-grid img {
   /* object-fit:contain; */
   /* width: 500px; */
@@ -63,15 +65,23 @@ body {
 
 header h1{
   display:inline-block;
+  font-size: 70px;
+  margin: 20px;
 }
 
 nav{
-  display:inline;
-  text-align: right;
-
+  display:flex;
+  justify-content:space-between;
+  /* text-align: right; */
+  /* margin-right: 20px;
+  margin-top: 45px; */
+  float: right;
+  margin-top: 20px;
 }
 ul li{
   display: inline;
+  font-size: 40px;
+  margin-right: 20px;
   
 }
 ul{
@@ -96,7 +106,7 @@ footer h3{
 
 }
 .header{
-  padding: 5px;
+  /* padding: 5px; */
   background-color: rgb(60, 231, 223);
   color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -117,14 +127,24 @@ footer h3{
   padding-top: 0;
   margin-top: 0;
   text-align: center;
+  font-size: 40px;
 }
 
 .page-section {
-  font-size: 30px;
+  font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: right;
+  ;
 }
 
 .page-section h2 {
   padding: 20px;
+}
+
+.AM, .CM{
+  font-size: 40px;
+}
+
+.CM{
+  /* font-size: 40px; */
 }
