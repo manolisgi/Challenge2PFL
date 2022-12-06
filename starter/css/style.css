@@ -104,14 +104,14 @@ footer h3{
   width: 100%;
   padding: 10px;
   margin-bottom: 0;
-  background-color: rgb(60, 231, 223);
+  background-color: rgb(250, 172, 28);
   display: block;
   text-align: center;
 
 }
 .header{
   /* padding: 5px; */
-  background-color: rgb(60, 231, 223);
+  background-color: rgb(250, 172, 28);
   color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: larger;
@@ -120,11 +120,13 @@ footer h3{
 }
 
 .hero-banner{
-  background-image: url(https://previews.123rf.com/images/jenemilia/jenemilia1303/jenemilia130300295/18640855-abstract-wavy-marine-seamless-pattern-aquamarine-blue-variant-.jpg);
+  background-image: url(https://images.unsplash.com/photo-1608555307638-992062b31329?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b3JhbmdlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
   padding: 0;
   margin: 0;
   background-color: transparent;
   border: 0px;
+  font-size: larger;
+  font-style: italic;
 }
 
 .hero-banner h2{
