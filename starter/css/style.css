@@ -12,12 +12,11 @@ body {
 .container {
   display: grid;
   width: 100%;
-  /* height: 250px; */
   grid-template-areas:
     "page-section AM"
     "page-section Work-grid"
     "page-section-contact CM";
-  grid-template-rows: 300px 900px 300px;
+  grid-template-rows: 200px 700px 200px;
   grid-template-columns: 20% 80%;
   gap: 30px;
 }
@@ -27,8 +26,6 @@ body {
   grid-template-areas: 
     "box1 box2"
     "box3 box4";
-  /* grid-template-columns: 500px 500px;
-  grid-template-rows: 300px 300px; */
   grid-auto-rows: 1fr 1fr;
   grid-auto-columns: 1fr 1fr;
   gap: 30px;
@@ -37,7 +34,7 @@ body {
  .work-grid div{
   background-size:cover;
   border: 5px solid blueviolet;
-  font-size: 70px;
+  font-size: 40px;
   font-weight: bold;
   text-align: justify;
   }   
@@ -61,31 +58,23 @@ body {
     background-image: url(https://img.freepik.com/free-vector/abstract-low-poly-orange-yellow-background_1017-32111.jpg?auto=format&h=200);
   }
 
-.work-grid img {
-  /* object-fit:contain; */
-  /* width: 500px; */
-  /* height: 600px; */
-}
 
 header h1{
   display:inline-block;
-  font-size: 70px;
-  margin: 20px;
+  font-size: 40px;
+  margin: 10px;
 }
 
 nav{
   display:flex;
   justify-content:space-between;
-  /* text-align: right; */
-  /* margin-right: 20px;
-  margin-top: 45px; */
   float: right;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 ul li{
   display: inline;
-  font-size: 40px;
-  margin-right: 20px;
+  font-size: 20px;
+  margin-right: 10px;
   
 }
 ul{
@@ -110,11 +99,9 @@ footer h3{
 
 }
 .header{
-  /* padding: 5px; */
   background-color: rgb(250, 172, 28);
   color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: larger;
   border-bottom: 5px solid;
   border-color: blueviolet;
 }
@@ -125,7 +112,6 @@ footer h3{
   margin: 0;
   background-color: transparent;
   border: 0px;
-  font-size: larger;
   font-style: italic;
 }
 
@@ -133,24 +119,36 @@ footer h3{
   padding-top: 0;
   margin-top: 0;
   text-align: center;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .page-section {
-  font-size: 40px;
+  font-size: 25px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: right;
-  ;
 }
 
 .page-section h2 {
-  padding: 20px;
+  padding: 10px;
 }
 
 .AM, .CM{
-  font-size: 40px;
+  font-size: 20px;
 }
 
-.CM{
-  /* font-size: 40px; */
+@media screen and (max-width 800px) {
+  header{
+    background-color: azure;
+    font-size: smaller;
+  }
+  footer h3{
+    font-size: x-small;
+  }
+  main,
+  nav{
+    max-width: 1200px;
+    flex-direction: column;
+
+  }
+
 }
