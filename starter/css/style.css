@@ -19,6 +19,7 @@ body {
   grid-template-rows: auto 500px auto;
   grid-template-columns: 1fr 4fr;
   gap: 20px;
+  padding: 20px;
 }
 
 .work-grid{
