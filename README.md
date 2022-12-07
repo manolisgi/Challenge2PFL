@@ -14,6 +14,13 @@ The page has a navigation pane in the header with three tabs that leed to the ma
 
 This page wouldn't exist without the help of the TA's and the collaboration of the bootcamp students.
 
+## Image
+
+![image](https://user-images.githubusercontent.com/114882721/206176861-07fdf438-20cd-4ca8-85d0-52d63c601978.png)
+
+## Link
+
+https://manolisgi.github.io/GetToKnowMe/
 
 ## License
 
